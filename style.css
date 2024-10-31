@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+html {
+    background-color: #2b2c2e;
+}
+
+body {
+    color: 	#FFD700;
+    font-family: "Bona Nova SC", serif;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 75px;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+}
+
+div:nth-of-type(1) > img {
+    margin: 0px;
+    width: 1700px;
+    height: 250px;
+}
+
+div:nth-of-type(3) > img {
+    margin: 50px;
+    margin-top: 300px;
+}
+
+div:nth-of-type(3) > p {
+    font-size: 30px;
+    text-align: left;
+    margin: 25px;
+    margin-top: 300px;
+}
+
+div:nth-of-type(4) > img {
+    width: 600px;
+    align-content: flex-end;
+    margin: 50px;
+    margin-top: 300px;
+}
+
+div:nth-of-type(4) > p {
+    font-size: 30px;
+    text-align: left;
+    margin: 25px;
+    margin-top: 300px;
+}
+
+div:nth-of-type(5) > img {
+    width: 600px;
+    margin-top: 300px;
+}
+
+div:nth-of-type(5) > p {
+    font-size: 30px;
+    text-align: left;
+    margin: 25px;
+    margin-top: 300px;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#click {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: 	#FFD700;
+    margin-top: 25px;
+    margin-bottom: 1000px;
+    margin: 100px;
+    background-color: #4b5163;
+    font-size: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#click:hover {
+    transform: scale(0.95);
+}
